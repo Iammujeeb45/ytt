@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widt, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="shortcut icon" />
+    <href="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-512.png"
+    type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <header class="flex">
+      <div class="w-full h-16 bg-white-100 flex justify-between ml-4">
+        <div class="flex ml-8 pt-2 gap-4 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <img
+            class="flex h-7"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/YouTube_Logo_%282013-2017%29.svg/1280px-YouTube_Logo_%282013-2017%29.svg.png"
+          />
+        </div>
+        <div class="flex pt-2 items-center gap-3 justift-center rounded-r-lg">
+          <input
+            class="h-9 border border-black rounded-l-lg w-[500px]"
+            type="text"
+            placeholder="search"
+          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z"
+            />
+          </svg>
+        </div>
+        <div class="flex items-center gap-5 mr-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+            />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- side bar -->
+    <section class="flex">
+      <!-- main div in side bar -->
+      <div class="flex w-28 h-screen bg-white-100">
+        <!-- icons menu bar -->
+        <div class="flex flex-col items-center justift-center pt-5 pl-3 gap-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+            />
+          </svg>
+          <span class="text-s">Home</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"
+            />
+          </svg>
+          <span class="">Treanding</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21M4.5 10.5H18V15H4.5v-4.5ZM3.75 18h15A2.25 2.25 0 0 0 21 15.75v-6a2.25 2.25 0 0 0-2.25-2.25h-15A2.25 2.25 0 0 0 1.5 9.75v6A2.25 2.25 0 0 0 3.75 18Z"
+            />
+          </svg>
+          <span class="">Subscription</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+            />
+          </svg>
+          <span class="">Me</span>
+        </div>
+      </div>
+      <!-- cart section div -->
+      <div class="flex flex-wrap mb-7">
+        <!-- first cart main div -->
+        <div class="w-[500PX] h-96">
+          <!-- image div 1st div -->
+          <div class="flex mt-6 ml-6">
+            <img
+              class="rounded-lg"
+              src="https://www.jansatta.com/wp-content/uploads/2024/04/pushpa-2-teaser.jpg?w=440"
+            />
+          </div>
+          <!-- cart 2nd div -->
+          <div class="flex items-center justify-between">
+            <img
+              class="h-12 w-12 rounded-full mt-5 ml-5"
+              src="https://mythrimoviemakers.com/wp-content/uploads/2020/01/mythri-movie-logo-for-white-background.png"
+            />
+
+            <span class="text-2xl mr-10">Pushpa2Therule official teaser</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"
+              />
+            </svg>
+          </div>
+          <!-- cart 3rd div -->
+          <div class="flex flex-col">
+            <span class="pl-28">mythri movie makers </span>
+            <p class="pl-28">101m views. 4 months ago</p>
+          </div>
+        </div>
+        <div class="w-[500PX] h-96">
+          <!-- image div 1st div -->
+          <div class="flex mt-6 ml-6">
+            <img
+              class="rounded-lg"
+              src="https://i.ytimg.com/vi/W_rEyMWGRcI/maxresdefault.jpg"
+            />
+          </div>
+          <!-- cart 2nd div -->
+          <div class="flex items-center justify-between">
+            <image
+              class="h-12 w-12 rounded-full mt-5 ml-5"
+              src="https://upload.wikimedia.org/wikipedia/commons/8/89/Anuv_Jain_at_Ludhiana_concert.jpg"
+            ></image>
+            <span class="text-2xl mr-10">Jo Tum mere ho</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"
+              />
+            </svg>
+          </div>
+          <!-- cart 3rd div -->
+          <div class="flex flex-col">
+            <span class="pl-28">Anuv jain </span>
+            <p class="pl-28">800k views. 8 months ago</p>
+          </div>
+        </div>
+        <div class="w-[500PX] h-96">
+          <!-- image div 1st div -->
+          <div class="flex mt-6 ml-6">
+            <img
+              class="rounded-lg"
+              src="https://m.media-amazon.com/images/M/MV5BNjMxMmJiYTMtYzkyMi00ZDY3LWI3MzQtNDlmNDA5NTVlZTUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+            />
+          </div>
+          <!-- cart 2nd div -->
+          <div class="flex items-center justify-between">
+            <image
+              class="h-12 w-12 rounded-full mt-5 ml-5"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlo1BNwV_7pqsYe7BNSfTAl8_6L18zrNneag&s"
+            ></image>
+            <span class="text-2xl mr-10 pl-4"
+              >Thara Bhai Joginder: Bawandar - Diss Track (Music Video 2021) -
+              IMDb
+            </span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"
+              />
+            </svg>
+          </div>
+          <!-- cart 3rd div -->
+          <div class="flex flex-col">
+            <span class="pl-28">Thara Bhai Joginder </span>
+            <p class="pl-28">20k views. 1 years ago</p>
+          </div>
+        </div>
+        <div class="w-[500PX] h-96">
+          <!-- image div 1st div -->
+          <div class="flex mt-6 ml-6">
+            <img
+              class="rounded-lg"
+              src="https://articles.geekster.in/wp-content/uploads/2024/06/Installing-Tailwind-CSS-In-React.jpg"
+            />
+          </div>
+          <!-- cart 2nd div -->
+          <div class="flex items-center justify-between">
+            <image
+              class="h-12 w-12 rounded-full mt-5 ml-5"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s"
+            ></image>
+            <span class="text-2xl mr-10">Installing Tailwind CSS In React</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"
+              />
+            </svg>
+          </div>
+          <!-- cart 3rd div -->
+          <div class="flex flex-col">
+            <span class="pl-28">GeekSter </span>
+            <p class="pl-28">78k views. 8 years ago</p>
+          </div>
+        </div>
+        <div class="w-[500PX] h-96">
+          <!-- image div 1st div -->
+          <div class="flex mt-6 ml-6">
+            <img
+              class="rounded-lg"
+              src="https://e0.365dm.com/24/06/768x432/skysports-cricket-world-t20_6574035.jpg?20240605144438"
+            />
+          </div>
+          <!-- cart 2nd div -->
+          <div class="flex items-center justify-between">
+            <image
+              class="h-12 w-12 rounded-full mt-5 ml-5"
+              src="https://www.theindiaforum.in/sites/default/files/styles/cover_story_small/public/field/image/2022/06/21/bcci-1641601185-1641601185.jpg"
+            >
+            </image>
+            <span class="text-2xl mr-10">Ind vs Pak match highlights</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"
+              />
+            </svg>
+          </div>
+          <!-- cart 3rd div -->
+          <div class="flex flex-col">
+            <span class="pl-28">BCCI </span>
+            <p class="pl-28">10m views. one years ago</p>
+          </div>
+        </div>
+        <div class="w-[500PX] h-96">
+          <!-- image div 1st div -->
+          <div class="flex mt-6 ml-6">
+            <img
+              class="rounded-lg"
+              src="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/videoseries/ultimate-js-tutorial-hindi-1/JS-Thumb.jpg"
+            />
+          </div>
+          <!-- cart 2nd div -->
+          <div class="flex items-center justify-between">
+            <image
+              class="h-12 w-12 rounded-full mt-5 ml-5"
+              src="https://i.ytimg.com/vi/yxtJaPX8MfU/oar2.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLBkdYToPX0d37BrQdhnTQhiPGWxxA"
+            >
+            </image>
+            <span class="text-2xl mr-10">Learn To Code Online</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 12.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5ZM12 18.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z"
+              />
+            </svg>
+          </div>
+          <!-- cart 3rd div -->
+          <div class="flex flex-col">
+            <span class="pl-28">codewithharry </span>
+            <p class="pl-28">900k views. 6 months ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
